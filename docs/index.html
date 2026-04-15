@@ -125,7 +125,6 @@
             margin-top: 3rem;
         }
 
-        /* Responsive */
         @media (min-width: 768px) {
             .services-grid {
                 grid-template-columns: repeat(3, 1fr);
@@ -220,6 +219,28 @@
             </form>
         </section>
 
+        <!-- ============================
+             DADES LEGALS I CORPORATIVES
+        ============================= -->
+        <section id="dades-legals">
+            <h2>Dades legals i corporatives</h2>
+
+            <p><strong>Raó social:</strong> FoodLogistic S.A.</p>
+            <p><strong>NIF:</strong> A08123456</p>
+            <p><strong>Adreça:</strong> Carrer de la Teixidora, núm. 13, 08302 Mataró, Barcelona</p>
+            <p><strong>Inscripció Registral:</strong> Registre Mercantil de Barcelona, Tom 45678, Foli 120, Full B-567890, Inscripció 1a</p>
+            <p><strong>Correu electrònic:</strong> info@foodlogistic.com</p>
+            <p><strong>Telèfon:</strong> +34 935 55 55 55</p>
+            <p><strong>Nombre de treballadors:</strong> 35</p>
+            <p><strong>Facturació darrer any:</strong> 25 milions d’euros</p>
+
+            <p style="margin-top:1rem;">
+                FoodLogístic S.A. és una empresa capdavantera en la distribució i logística alimentària a nivell nacional.
+                Arran de l'obertura de noves rutes i la contractació de més personal, el seu volum de dades i les seves
+                necessitats de comunicació s'han multiplicat.
+            </p>
+        </section>
+
     </main>
 
     <!-- ============================
@@ -233,7 +254,6 @@
          JAVASCRIPT
     ============================= -->
     <script>
-        // Mòdul de gestió del formulari
         const formModule = (() => {
 
             const init = () => {
@@ -241,7 +261,6 @@
                 form.addEventListener("submit", handleSubmit);
             };
 
-            // Gestió de l'enviament del formulari
             const handleSubmit = (event) => {
                 event.preventDefault();
 
@@ -254,11 +273,10 @@
             return { init };
         })();
 
-        // Inicialització
         document.addEventListener("DOMContentLoaded", formModule.init);
     </script>
-<!-- Default Statcounter code for Web PI
-https://david-122008.github.io/T02-PI-web/ -->
+
+<!-- Default Statcounter code -->
 <script type="text/javascript">
 var sc_project=13221963; 
 var sc_invisible=1; 
@@ -270,6 +288,7 @@ src="https://www.statcounter.com/counter/counter.js" async></script>
 href="https://statcounter.com/" target="_blank"><img class="statcounter"
 src="https://c.statcounter.com/13221963/0/7cdae2a1/1/" alt="Web Analytics"
 referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
-<!-- End of Statcounter Code -->
+
 </body>
 </html>
+
