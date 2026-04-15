@@ -7,7 +7,7 @@ Aquesta és la web corporativa de Foodlogistic, una empresa fictícia dedicada a
 
 ## Demostració
 
-[🌐 URL de la web](https://github.com/david-122008/T02-PI-web)
+[🌐 URL de la web](https://https://david-122008.github.io/T02-PI-web/)
 
 ## Tecnologies Utilitzades
 
