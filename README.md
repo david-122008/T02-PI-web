@@ -1,7 +1,7 @@
 # T02-PI-web
 
 
-# Web Corporativa de [Nom de l'Empresa]
+# Web Corporativa de [FoodLogistic]
 
 Aquesta és la web corporativa de Foodlogistic, una empresa fictícia dedicada al sector alimentari en plena expansió dins el mòdul *Projecte Intermodular*.
 
